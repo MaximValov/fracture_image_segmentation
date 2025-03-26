@@ -22,7 +22,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 start_time = time.time()
-
+print('test')
 def train_conv_nn(train=True):
     start_train_time = time.time()
     X_train, X_test, y_train, y_test= make_data_split()
